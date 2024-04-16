@@ -1,0 +1,67 @@
+$color-primary: green;
+$color-secondary: orange;
+$font-family: "Poppins", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: $color-primary;
+    height: 85px;
+    width: auto;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.barra {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+
+    ul li {
+        list-style: none;
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                color: $color-secondary;
+            }
+        }
+    }
+}
+
+.xd {
+    background-image: url(./multimedia/verdurascuatro.jpeg);
+    background-size: cover;
+}
+
+.noseporquenoanda {
+    background-image: url(./multimedia/verdurasuno.jpeg);
+    background-size: cover;
+}
+
+.dx {
+    background-image: url(./multimedia/verdurasdos.jpeg);
+}
+
+.jeje {
+    text-decoration: none;
+}
+
+.jiji {
+    background-image: url(multimedia/verdurastres.jpeg);
+    background-size: cover;
+}
